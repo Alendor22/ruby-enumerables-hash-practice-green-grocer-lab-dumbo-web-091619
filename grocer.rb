@@ -17,7 +17,8 @@ new_cart
 end
 
 def apply_coupons(cart, coupons)
-  
+  # If there are no coupons, break and return cart
+  cart
 end
 
 def apply_clearance(cart)
