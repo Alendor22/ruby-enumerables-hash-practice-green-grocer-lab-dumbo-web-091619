@@ -3,10 +3,11 @@ def consolidate_cart(cart)
   new_cart = {}
   # Iterate over each element of cart array
   cart.each do |hash|
-  hash.each do |item, description|
+  hash.each do |item, descr|
   # Increment count by 1 if item already present in new_cart hash
   if new_cart[item]
     new_cart[item][:count] += 1 
+    
     
 end
 
