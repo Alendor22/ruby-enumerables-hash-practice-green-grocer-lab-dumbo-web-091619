@@ -6,6 +6,7 @@ def consolidate_cart(cart)
   hash.each do |item, description|
   # Increment count by 1 if item already present in new_cart hash
   if new_cart[item]
+    new_cart[item][:count] += 1
 end
 
 def apply_coupons(cart, coupons)
