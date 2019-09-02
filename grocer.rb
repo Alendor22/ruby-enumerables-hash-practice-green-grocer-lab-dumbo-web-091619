@@ -4,7 +4,8 @@ def consolidate_cart(cart)
   # Iterate over each element of cart array
   cart.each do |hash|
   hash.each do |item, description|
-    
+  # Increment count by 1 if item already present in new_cart hash
+  new_cart[item]
 end
 
 def apply_coupons(cart, coupons)
