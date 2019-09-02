@@ -21,7 +21,8 @@ def apply_coupons(cart, coupons)
   return cart if coupons == []
   # Create new_cart var, set it equal to cart, and make changes
   new_cart = cart
-
+# Iterate over each element in array coupons
+  coupons.each
 end
 
 def apply_clearance(cart)
