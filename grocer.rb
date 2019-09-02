@@ -17,7 +17,8 @@ new_cart
 end
 
 def apply_coupons(cart, coupons)
-  # If there are no coupons, break and return cart
+# If there are no coupons, break and return cart
+  return cart
   new_cart = cart
 
 end
