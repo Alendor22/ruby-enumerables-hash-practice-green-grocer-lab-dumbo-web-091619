@@ -10,7 +10,8 @@ def consolidate_cart(cart)
     # If item not present in new_cart hash, set item as key, descr as value, & item count to 1
   else new_cart[item] = descr
     new_cart[item][:count] = 1
-    
+  end
+  
 end
 
 def apply_coupons(cart, coupons)
