@@ -9,7 +9,7 @@ def consolidate_cart(cart)
     new_cart[item][:count] += 1 
     # If item not present in new_cart hash, set item as key, descr as value, & item count to 1
   else new_cart[item] = descr
-    new_cart[item][:count]
+    new_cart[item][:count] = 1
     
 end
 
