@@ -1,5 +1,7 @@
 def consolidate_cart(cart)
+  # Create new hash to fill
   new_cart = {}
+  
   cart.each do |hash|
 end
 
