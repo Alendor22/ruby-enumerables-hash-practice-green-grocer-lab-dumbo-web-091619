@@ -25,7 +25,7 @@ def apply_coupons(cart, coupons)
   coupons.each do |coupon|
     c_name = coupon[:item]
     c_num = coupon[:num]
-    if cart.include?(c_name) &&
+    if cart.include?(c_name) && cart [c_name]
 end
 
 def apply_clearance(cart)
