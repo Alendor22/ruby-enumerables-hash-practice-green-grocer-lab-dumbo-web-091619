@@ -22,7 +22,8 @@ def apply_coupons(cart, coupons)
   # Create new_cart var, set it equal to cart, and make changes
   new_cart = cart
 # Iterate over each element in array coupons
-  coupons.each
+  coupons.each do |coupon|
+    
 end
 
 def apply_clearance(cart)
