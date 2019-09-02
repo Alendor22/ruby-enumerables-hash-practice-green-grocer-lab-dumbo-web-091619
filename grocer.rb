@@ -1,5 +1,5 @@
 def consolidate_cart(cart)
-  cart.to_h {}
+  cart.to_h { |obj| obj}
 end
 
 def apply_coupons(cart, coupons)
