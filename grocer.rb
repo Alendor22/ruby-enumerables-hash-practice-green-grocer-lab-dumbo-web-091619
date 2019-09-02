@@ -24,6 +24,7 @@ def apply_coupons(cart, coupons)
 # Iterate over each element in array coupons
   coupons.each do |coupon|
     c_name = coupon[:item]
+    c_num = coupon[:]
 end
 
 def apply_clearance(cart)
