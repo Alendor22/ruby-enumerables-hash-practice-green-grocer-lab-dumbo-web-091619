@@ -43,7 +43,7 @@ end
 
 def apply_clearance(cart)
   new_cart = cart
-  
+  cart.each
 end
 
 def checkout(cart, coupons)
